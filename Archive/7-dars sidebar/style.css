@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sidebar {
+    width: 200px;
+    /* viewport height =>korinish balandligi  */
+    height: 100vh;
+    background-color: pink;
+}
+
+.logo {
+    /* border: 2px solid black; */
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebar ul {
+    /* border: 2px solid black; */
+}
+
+.sidebar ul li {
+    /* border: 2px solid black; */
+    padding-left: 30px;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.sidebar ul li:hover {
+    padding-left: 35px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar ul li img {
+    width: 20px;
+    height: 20px;
+}
